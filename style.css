@@ -1,0 +1,30 @@
+:root {
+  --background-color: #adedff;
+  --main-background-color: #fff;
+  --primary-gray: #989898;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-color: var(--main-background-color);
+  box-shadow: 3px 3px 5px var(--primary-gray);
+  border-radius: 20px;
+  max-width: 70vw;
+  margin: auto;
+  text-align: center;
+}
+
+/* SMALL DEVICES */
+@media (max-width: 768px) {
+  #main {
+    margin-top: -21px;
+    max-width: 100vw;
+    border-radius: 0px 0px 20px 20px;
+  }
+}
