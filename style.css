@@ -20,6 +20,13 @@ body {
   text-align: center;
 }
 
+#img-div img {
+  margin: auto;
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 /* SMALL DEVICES */
 @media (max-width: 768px) {
   #main {
