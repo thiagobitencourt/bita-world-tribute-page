@@ -2,6 +2,22 @@
   --background-color: #adedff;
   --main-background-color: #fff;
   --primary-gray: #989898;
+  --color-blue: #2ac4f4;
+  --color-purple: #b4478e;
+}
+
+@font-face {
+  font-family: "HDV_Comic_serif";
+  src: url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.eot");
+  src: url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.woff2") format("woff2"),
+    url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.woff") format("woff"),
+    url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.ttf") format("truetype"),
+    url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.svg#HDV_Comic_serif")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -9,6 +25,15 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  font-family: "HDV_Comic_serif", "serif";
+}
+
+h1 {
+  margin: auto;
+  padding: 20px;
+  font-size: 36px;
+  font-weight: normal;
+  color: var(--color-blue);
 }
 
 #main {
@@ -16,7 +41,7 @@ body {
   box-shadow: 3px 3px 5px var(--primary-gray);
   border-radius: 20px;
   max-width: 70vw;
-  margin: auto;
+  margin: 20px auto 40px;
   text-align: center;
 }
 
@@ -25,6 +50,27 @@ body {
   max-width: 100%;
   display: block;
   height: auto;
+}
+
+#img-caption {
+  font-style: italic;
+  color: var(--color-purple);
+  font-size: 14px;
+}
+
+#tribute-info {
+  color: var(--primary-gray);
+  padding: 30px 50px;
+  box-shadow: 2px 2px 7px var(--primary-gray);
+}
+
+#tribute-link {
+  background-color: var(--color-blue);
+  color: var(--main-background-color);
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 60% 30%;
 }
 
 /* SMALL DEVICES */
