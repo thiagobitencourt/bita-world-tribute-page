@@ -15,7 +15,6 @@
   src: url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.eot");
   src: url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.eot?#iefix")
       format("embedded-opentype"),
-    url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.woff2") format("woff2"),
     url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.woff") format("woff"),
     url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.ttf") format("truetype"),
     url("./assets/fonts/HVD_Comic_Serif_Pro-webfont.svg#HDV_Comic_serif")
@@ -119,6 +118,29 @@ h1 {
   cursor: pointer;
   padding: 15px;
   border-radius: 60% 30%;
+}
+
+.credits {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: -30px auto;
+  font-size: 13px;
+  color: var(--primary-gray);
+}
+
+.credits .heart {
+  color: var(--color-light-blue);
+}
+
+.credits .link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.credits .link:hover {
+  color: var(--color-light-blue);
+  border-bottom: 1px solid;
 }
 
 /* SMALL DEVICES */
