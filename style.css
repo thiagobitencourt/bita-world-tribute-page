@@ -4,6 +4,10 @@
   --primary-gray: #989898;
   --color-blue: #2ac4f4;
   --color-purple: #b4478e;
+  --color-orange: #ff8801;
+  --color-green: #9bd207;
+  --color-pink: #f818f5;
+  --color-light-blue: #11a7dd;
 }
 
 @font-face {
@@ -62,6 +66,50 @@ h1 {
   color: var(--primary-gray);
   padding: 30px 50px;
   box-shadow: 2px 2px 7px var(--primary-gray);
+}
+
+.productions h2 {
+  color: var(--color-blue);
+  font-weight: normal;
+}
+
+.productions ul {
+  padding: 0;
+  list-style: none;
+}
+
+.productions li {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.productions li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.productions li a:hover {
+  border-bottom: 1px solid;
+}
+
+.orange {
+  color: var(--color-orange);
+}
+
+.green {
+  color: var(--color-green);
+}
+
+.pink {
+  color: var(--color-pink);
+}
+
+.light-blue {
+  color: var(--color-light-blue);
+}
+
+.reference-link {
+  padding: 30px;
 }
 
 #tribute-link {
